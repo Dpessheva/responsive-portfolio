@@ -1,4 +1,4 @@
-$primary-color: #272727;
+$primary-color:#272727;
 $secondary-color: #FFE400;
 $text-color: #747474;
 $show-home-image: true;
@@ -31,6 +31,15 @@ $c: #C96567;
         }
 
       
+    }
+}
+
+// Function to set text color 
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+       @return #747474;
+    } @else {
+        @return #747474;
     }
 }
 
