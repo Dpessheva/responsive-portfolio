@@ -4,7 +4,7 @@ $text-color : #ffffffa8;
 $show-home-image: true;
 $home-image: url(/img/background.jpg);
 $bg-opacity: 0.9;
-$c: #C96567;
+
 
 
 @mixin easeOut {
@@ -37,9 +37,9 @@ $c: #C96567;
 // Function to set text color 
 @function set-text-color($color) {
     @if (lightness($color) > 40) {
-       @return darken($text-color, 100);
+       @return #000;
     } @else {
-        @return $text-color;
+        @return #fff;
     }
 }
 
