@@ -173,7 +173,7 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
-  .about-info .job {
+  .about-info .job, .about-info .education {
     background: #343434;
     padding: 0.5rem;
     border-bottom: #FFE400 5px solid; }
@@ -183,6 +183,31 @@ main {
     grid-area: job2; }
   .about-info .job-3 {
     grid-area: job3; }
+
+.educations {
+  display: grid;
+  grid-template-areas: 'education1 education2 education3';
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; }
+
+.title {
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem; }
+
+.education {
+  background: #343434;
+  padding: 0.5rem;
+  border-bottom: #FFE400 5px solid; }
+
+.education-1 {
+  grid-area: education1; }
+
+.education-2 {
+  grid-area: education2; }
+
+.education-3 {
+  grid-area: education3; }
 
 .projects {
   display: grid;
@@ -274,6 +299,9 @@ main {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr; }
+  .educations {
+    grid-template-areas: 'title' 'education1' 'education2' 'education3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }

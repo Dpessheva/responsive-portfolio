@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive portfolio",
   "main": "index.js",
+  "homepage": "http://ishuamali.github.io/react-gh-pages",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
