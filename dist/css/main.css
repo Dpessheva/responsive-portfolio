@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #ffffffa8;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -75,7 +75,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #ffffffa8;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -95,7 +95,7 @@
 
 body {
   background: #272727;
-  color: #fff;
+  color: #ffffffa8;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -261,7 +261,7 @@ main {
   text-align: center;
   padding: 1rem;
   background: #0e0e0e;
-  color: #fff;
+  color: #ffffffa8;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
