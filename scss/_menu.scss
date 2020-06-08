@@ -67,7 +67,7 @@
     &-nav {
         margin: 0;
         padding: 0;
-        background: darken($primary-color, 5);
+        background: daren($primary-color, 5);
         list-style: none;
         transform: translate3d(0, -100%, 0);
         @include easeOut;
@@ -99,7 +99,6 @@
             background-position: center center; 
             border-radius: 50%;
             border: 3px solid $secondary-color;
-
         }
     }
 
