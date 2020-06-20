@@ -24,7 +24,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -60,7 +59,9 @@
       background-repeat: no-repeat;
       background-position: center center;
       border-radius: 50%;
-      border: 3px solid #FFE400; }
+      border: 3px solid #FFE400;
+      z-index: 10;
+      position: relative; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -102,7 +103,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/img/background.jpg);
+    background: url("/img/background.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
